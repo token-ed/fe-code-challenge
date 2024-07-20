@@ -12,7 +12,7 @@ interface UseProfessionalsHook {
   resetProfessionals: () => void;
 }
 
-const ENTRIES_PER_PAGE = 10;
+const ENTRIES_PER_PAGE = 5;
 const START_QUERYPARAM = "_start";
 const LIMIT_QUERYPARAM = "_limit";
 
@@ -66,8 +66,8 @@ export const useProfessionals = (): UseProfessionalsHook => {
 
           const professionalsWithPagination: ProfessionalsWithPagination = {
             professionals: professionalsResponse,
-            // json-server does not return any headers or information about the length of records for professionals so we will assume the length is 59 (db.json)
-            totalPages: Math.floor(59 / ENTRIES_PER_PAGE),
+            // json-server does not return any headers or information about the length of records for professionals so we will assume the length is 15 (db.json)
+            totalPages: Math.floor(15 / ENTRIES_PER_PAGE),
           };
 
           setProfessionalsWithPagination(professionalsWithPagination);
