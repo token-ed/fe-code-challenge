@@ -1,5 +1,7 @@
 # FE Code Challenge
 
+![fe-code-challenge-demo](https://github.com/user-attachments/assets/eff0f039-8674-40c5-b58a-61bd8234c2e7)
+
 ## Demo
 
 Test it **[here](https://token-ed.github.io/fe-code-challenge/)**
