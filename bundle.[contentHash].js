@@ -295,23 +295,28 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony export */ __webpack_require__.d(__webpack_exports__, {
 /* harmony export */   Loader: () => (/* binding */ Loader)
 /* harmony export */ });
-/* harmony import */ var _assets_fe_code_challenge_png__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! @assets/fe-code-challenge.png */ "./src/assets/fe-code-challenge.png");
-/* harmony import */ var _components_image__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! @components/image */ "./src/libs/components/image/index.ts");
-/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! react */ "./node_modules/react/index.js");
-/* harmony import */ var _loader_scss__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! ./loader.scss */ "./src/libs/components/loader/loader.scss");
+/* harmony import */ var _babel_runtime_helpers_defineProperty__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! @babel/runtime/helpers/defineProperty */ "./node_modules/@babel/runtime/helpers/esm/defineProperty.js");
+/* harmony import */ var _assets_loader_gif__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! @assets/loader.gif */ "./src/assets/loader.gif");
+/* harmony import */ var _components_image__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! @components/image */ "./src/libs/components/image/index.ts");
+/* harmony import */ var classnames__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! classnames */ "./node_modules/classnames/index.js");
+/* harmony import */ var classnames__WEBPACK_IMPORTED_MODULE_3___default = /*#__PURE__*/__webpack_require__.n(classnames__WEBPACK_IMPORTED_MODULE_3__);
+/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_4__ = __webpack_require__(/*! react */ "./node_modules/react/index.js");
+/* harmony import */ var _loader_scss__WEBPACK_IMPORTED_MODULE_5__ = __webpack_require__(/*! ./loader.scss */ "./src/libs/components/loader/loader.scss");
+
+
 
 
 
 
 var Loader = function Loader(_ref) {
   var isLoading = _ref.isLoading;
-  if (!isLoading) return null;
-  return /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_2__.createElement("div", {
-    className: _loader_scss__WEBPACK_IMPORTED_MODULE_3__["default"].container
-  }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_2__.createElement("div", {
-    className: _loader_scss__WEBPACK_IMPORTED_MODULE_3__["default"].loader
-  }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_2__.createElement(_components_image__WEBPACK_IMPORTED_MODULE_1__.Image, {
-    src: _assets_fe_code_challenge_png__WEBPACK_IMPORTED_MODULE_0__
+  var styles = classnames__WEBPACK_IMPORTED_MODULE_3___default()((0,_babel_runtime_helpers_defineProperty__WEBPACK_IMPORTED_MODULE_0__["default"])({}, _loader_scss__WEBPACK_IMPORTED_MODULE_5__["default"].hidden, !isLoading), _loader_scss__WEBPACK_IMPORTED_MODULE_5__["default"].container);
+  return /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_4__.createElement("div", {
+    className: styles
+  }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_4__.createElement("div", {
+    className: _loader_scss__WEBPACK_IMPORTED_MODULE_5__["default"].loader
+  }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_4__.createElement(_components_image__WEBPACK_IMPORTED_MODULE_2__.Image, {
+    src: _assets_loader_gif__WEBPACK_IMPORTED_MODULE_1__
   })));
 };
 
@@ -3037,7 +3042,7 @@ __webpack_require__.r(__webpack_exports__);
 // extracted by mini-css-extract-plugin
 /* harmony default export */ const __WEBPACK_DEFAULT_EXPORT__ = ({"container":"app_container_Orjb4y"});
     if(true) {
-      // 1721505567275
+      // 1721506000384
       var cssReload = __webpack_require__(/*! ./node_modules/mini-css-extract-plugin/dist/hmr/hotModuleReplacement.js */ "./node_modules/mini-css-extract-plugin/dist/hmr/hotModuleReplacement.js")(module.id, {"locals":true});
       module.hot.dispose(cssReload);
       
@@ -3060,7 +3065,7 @@ __webpack_require__.r(__webpack_exports__);
 // extracted by mini-css-extract-plugin
 /* harmony default export */ const __WEBPACK_DEFAULT_EXPORT__ = ({"readme":"about_readme_ORbM-o"});
     if(true) {
-      // 1721505567280
+      // 1721506000388
       var cssReload = __webpack_require__(/*! ./node_modules/mini-css-extract-plugin/dist/hmr/hotModuleReplacement.js */ "./node_modules/mini-css-extract-plugin/dist/hmr/hotModuleReplacement.js")(module.id, {"locals":true});
       module.hot.dispose(cssReload);
       
@@ -3083,7 +3088,7 @@ __webpack_require__.r(__webpack_exports__);
 // extracted by mini-css-extract-plugin
 /* harmony default export */ const __WEBPACK_DEFAULT_EXPORT__ = ({"dropdown-container":"dropdown_dropdown-container_kEzcR2","dropdownContainer":"dropdown_dropdown-container_kEzcR2","label":"dropdown_label_ozX28L","select":"dropdown_select_KgwDMq","select-not-valid":"dropdown_select-not-valid_p6wpDg","selectNotValid":"dropdown_select-not-valid_p6wpDg"});
     if(true) {
-      // 1721505567286
+      // 1721506000395
       var cssReload = __webpack_require__(/*! ./node_modules/mini-css-extract-plugin/dist/hmr/hotModuleReplacement.js */ "./node_modules/mini-css-extract-plugin/dist/hmr/hotModuleReplacement.js")(module.id, {"locals":true});
       module.hot.dispose(cssReload);
       
@@ -3106,7 +3111,7 @@ __webpack_require__.r(__webpack_exports__);
 // extracted by mini-css-extract-plugin
 /* harmony default export */ const __WEBPACK_DEFAULT_EXPORT__ = ({"text-box-container":"text-box_text-box-container_bRMQSd","textBoxContainer":"text-box_text-box-container_bRMQSd","label":"text-box_label_NjB3lJ","input":"text-box_input_l-qJhA","input-not-valid":"text-box_input-not-valid_ukwO66","inputNotValid":"text-box_input-not-valid_ukwO66"});
     if(true) {
-      // 1721505567283
+      // 1721506000392
       var cssReload = __webpack_require__(/*! ./node_modules/mini-css-extract-plugin/dist/hmr/hotModuleReplacement.js */ "./node_modules/mini-css-extract-plugin/dist/hmr/hotModuleReplacement.js")(module.id, {"locals":true});
       module.hot.dispose(cssReload);
       
@@ -3127,9 +3132,9 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony export */   "default": () => (__WEBPACK_DEFAULT_EXPORT__)
 /* harmony export */ });
 // extracted by mini-css-extract-plugin
-/* harmony default export */ const __WEBPACK_DEFAULT_EXPORT__ = ({"container":"loader_container_IXtUEA","loader":"loader_loader_i3DjbT"});
+/* harmony default export */ const __WEBPACK_DEFAULT_EXPORT__ = ({"container":"loader_container_IXtUEA","hidden":"loader_hidden_GS6IcV","loader":"loader_loader_i3DjbT"});
     if(true) {
-      // 1721505567293
+      // 1721506000401
       var cssReload = __webpack_require__(/*! ./node_modules/mini-css-extract-plugin/dist/hmr/hotModuleReplacement.js */ "./node_modules/mini-css-extract-plugin/dist/hmr/hotModuleReplacement.js")(module.id, {"locals":true});
       module.hot.dispose(cssReload);
       
@@ -3152,7 +3157,7 @@ __webpack_require__.r(__webpack_exports__);
 // extracted by mini-css-extract-plugin
 /* harmony default export */ const __WEBPACK_DEFAULT_EXPORT__ = ({"navigation":"menu_navigation_axMOEL","image":"menu_image_1npch3","ul":"menu_ul_HdLY6v"});
     if(true) {
-      // 1721505567290
+      // 1721506000398
       var cssReload = __webpack_require__(/*! ./node_modules/mini-css-extract-plugin/dist/hmr/hotModuleReplacement.js */ "./node_modules/mini-css-extract-plugin/dist/hmr/hotModuleReplacement.js")(module.id, {"locals":true});
       module.hot.dispose(cssReload);
       
@@ -3175,7 +3180,7 @@ __webpack_require__.r(__webpack_exports__);
 // extracted by mini-css-extract-plugin
 /* harmony default export */ const __WEBPACK_DEFAULT_EXPORT__ = ({"table-container":"table_table-container_IHZOj+","tableContainer":"table_table-container_IHZOj+","pagination-container":"table_pagination-container_jpVd5N","paginationContainer":"table_pagination-container_jpVd5N","pagination-link-active":"table_pagination-link-active_M4HZoF","paginationLinkActive":"table_pagination-link-active_M4HZoF","previous":"table_previous_4JeWwD","next":"table_next_203wbc","next-link":"table_next-link_ZR+j7K","nextLink":"table_next-link_ZR+j7K","previous-link":"table_previous-link_lwmwbT","previousLink":"table_previous-link_lwmwbT","page-li":"table_page-li_kE+Cu6","pageLi":"table_page-li_kE+Cu6","page-li-link":"table_page-li-link_pX+1ey","pageLiLink":"table_page-li-link_pX+1ey"});
     if(true) {
-      // 1721505567295
+      // 1721506000404
       var cssReload = __webpack_require__(/*! ./node_modules/mini-css-extract-plugin/dist/hmr/hotModuleReplacement.js */ "./node_modules/mini-css-extract-plugin/dist/hmr/hotModuleReplacement.js")(module.id, {"locals":true});
       module.hot.dispose(cssReload);
       
@@ -3198,7 +3203,7 @@ __webpack_require__.r(__webpack_exports__);
 // extracted by mini-css-extract-plugin
 /* harmony default export */ const __WEBPACK_DEFAULT_EXPORT__ = ({"form-container":"styles-shared_form-container_GfIsAN","formContainer":"styles-shared_form-container_GfIsAN","search-container":"styles-shared_search-container_LZZB+p","searchContainer":"styles-shared_search-container_LZZB+p","text-box":"styles-shared_text-box_kpFDMc","textBox":"styles-shared_text-box_kpFDMc","dropdown":"styles-shared_dropdown_sW3Kam","button":"styles-shared_button_95CN65","stars":"styles-shared_stars_oS8ogT"});
     if(true) {
-      // 1721505567299
+      // 1721506000407
       var cssReload = __webpack_require__(/*! ./node_modules/mini-css-extract-plugin/dist/hmr/hotModuleReplacement.js */ "./node_modules/mini-css-extract-plugin/dist/hmr/hotModuleReplacement.js")(module.id, {"locals":true});
       module.hot.dispose(cssReload);
       
@@ -36535,6 +36540,17 @@ module.exports = __webpack_require__.p + "3563016f0978fb248b85.png";
 
 /***/ }),
 
+/***/ "./src/assets/loader.gif":
+/*!*******************************!*\
+  !*** ./src/assets/loader.gif ***!
+  \*******************************/
+/***/ ((module, __unused_webpack_exports, __webpack_require__) => {
+
+"use strict";
+module.exports = __webpack_require__.p + "8981e9a58e16221f8156.gif";
+
+/***/ }),
+
 /***/ "./node_modules/@babel/runtime/helpers/regeneratorRuntime.js":
 /*!*******************************************************************!*\
   !*** ./node_modules/@babel/runtime/helpers/regeneratorRuntime.js ***!
@@ -37587,7 +37603,7 @@ function invariant(condition, message) {
 /******/ 	
 /******/ 	/* webpack/runtime/getFullHash */
 /******/ 	(() => {
-/******/ 		__webpack_require__.h = () => ("0d8e0d0bd41059f9e564")
+/******/ 		__webpack_require__.h = () => ("8e04de55f910308401a0")
 /******/ 	})();
 /******/ 	
 /******/ 	/* webpack/runtime/global */
