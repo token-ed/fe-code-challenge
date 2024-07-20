@@ -1,3 +1,4 @@
+import { CleanWebpackPlugin } from "clean-webpack-plugin";
 import ESLintPlugin from "eslint-webpack-plugin";
 import ForkTsCheckerWebpackPlugin from "fork-ts-checker-webpack-plugin";
 import HtmlWebpackPlugin from "html-webpack-plugin";
@@ -5,13 +6,27 @@ import MiniCssExtractPlugin from "mini-css-extract-plugin";
 import path from "path";
 import TsconfigPathsPlugin from "tsconfig-paths-webpack-plugin";
 import webpack from "webpack";
+import { merge } from "webpack-merge";
 
-const config: webpack.Configuration = {
-  mode: "development",
+const commonConfig: webpack.Configuration = {
+  mode:
+    (process.env.NODE_ENV as "development" | "production" | "none" | undefined) || "development",
   output: {
     path: path.resolve(__dirname, "build"),
     filename: "[name].[contenthash].js",
     publicPath: process.env.PUBLIC_URL || "/",
+  },
+  optimization: {
+    runtimeChunk: "single",
+    splitChunks: {
+      cacheGroups: {
+        vendor: {
+          test: /[\\/]node_modules[\\/]/,
+          name: "vendors",
+          chunks: "all",
+        },
+      },
+    },
   },
   entry: "./src/app/index.tsx",
   module: {
@@ -64,6 +79,7 @@ const config: webpack.Configuration = {
     extensions: [".tsx", ".ts", ".js"],
   },
   plugins: [
+    new CleanWebpackPlugin(),
     new HtmlWebpackPlugin({
       template: "src/app/index.html",
     }),
@@ -79,14 +95,16 @@ const config: webpack.Configuration = {
   devtool: "source-map",
 };
 
-const webpackOptionsNormalized: Partial<webpack.WebpackOptionsNormalized> = {
+const devConfig: any = {
   devServer: {
-    contentBase: path.join(__dirname, "build"),
-    historyApiFallback: true,
-    port: 4000,
+    static: {
+      directory: path.join(__dirname, "src/assets"),
+    },
     open: true,
     hot: true,
+    historyApiFallback: true,
+    port: 4000,
   },
 };
 
-export default { ...config, ...webpackOptionsNormalized };
+export default merge(commonConfig, devConfig);
