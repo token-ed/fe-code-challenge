@@ -3,6 +3,7 @@
 declare namespace LoaderScssNamespace {
   export interface ILoaderScss {
     container: string;
+    hidden: string;
     loader: string;
   }
 }

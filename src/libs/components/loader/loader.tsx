@@ -1,5 +1,6 @@
-import loader from "@assets/fe-code-challenge.png";
+import loader from "@assets/loader.gif";
 import { Image } from "@components/image";
+import classNames from "classnames";
 import React from "react";
 import css from "./loader.scss";
 
@@ -8,10 +9,9 @@ interface Props {
 }
 
 export const Loader: React.FC<Props> = ({ isLoading }) => {
-  if (!isLoading) return null;
-
+  const styles = classNames({ [css.hidden]: !isLoading }, css.container);
   return (
-    <div className={css.container}>
+    <div className={styles}>
       <div className={css.loader}>
         <Image src={loader} />
       </div>
