@@ -66,8 +66,8 @@ export const useProfessionals = (): UseProfessionalsHook => {
 
           const professionalsWithPagination: ProfessionalsWithPagination = {
             professionals: professionalsResponse,
-            // json-server does not return any headers or information about the length of records for professionals so we will assume the length is 15 (db.json)
-            totalPages: Math.floor(15 / ENTRIES_PER_PAGE),
+            // json-server does not return any headers or information about the length of records for professionals so we will assume the length is 16 (db.json)
+            totalPages: Math.floor(16 / ENTRIES_PER_PAGE),
           };
 
           setProfessionalsWithPagination(professionalsWithPagination);
