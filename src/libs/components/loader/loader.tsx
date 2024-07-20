@@ -1,4 +1,4 @@
-import loader from "@assets/loader.gif";
+import loader from "@assets/fe-code-challenge.png";
 import { Image } from "@components/image";
 import React from "react";
 import css from "./loader.scss";
