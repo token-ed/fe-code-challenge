@@ -208,9 +208,12 @@ export const About: React.FC = () => (
         professionals table is cleared.
       </li>
       <li>
-        If the user changes the postcode, it will be validated when blurring out of the field. If
-        the postcode is incorrect, the pagination module at the bottom won't be available—the user
-        must fetch the professionals again.
+        If the user changes the postcode, it will be validated when blurring out of the field
+        (postcode is validated against UK postcode pattern)
+      </li>
+      <li>
+        If the postcode is incorrect, the pagination module at the bottom won't be available—the
+        user must fetch the professionals again.
       </li>
       <li>
         The user can navigate to higher page indexes instead of just using the "previous" and "next"
