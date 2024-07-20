@@ -10,8 +10,8 @@ const config: webpack.Configuration = {
   mode: "development",
   output: {
     path: path.resolve(__dirname, "build"),
-    filename: "bundle.[contentHash].js",
-    publicPath: "",
+    filename: "[name].[contenthash].js",
+    publicPath: process.env.PUBLIC_URL || "/",
   },
   entry: "./src/app/index.tsx",
   module: {

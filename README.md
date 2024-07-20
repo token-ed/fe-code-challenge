@@ -5,8 +5,7 @@
 - Clone this repository
   - `git clone`
 - Go into the project directory: `cd fe-code-challenge\`
-- You will need to install the package [`json-server`](https://github.com/typicode/json-server) as that's the package mimicking the server and where the API is stored (`db.json`)
-  - `npm install json-server`
+- The API is served through `https://my-json-server.typicode.com/token-ed/fe-code-challenge` which exposed `db.json` from this repo
 - Start the application with: `npm run start`
 - Webpack will start a local server on port 4000, if you have any process running under that port that could be easily overcome by setting a new port in `./fe-code-challenge/webpack.dev.config.ts`, line 86.
 - Also, please bare in mind that I'm using _node-sass_ package and it requires a download from GitHub, if you're sitting behind a proxy it might be problematic - in this case please follow the recommendations on the error logged in the terminal.
