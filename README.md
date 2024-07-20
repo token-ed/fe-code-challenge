@@ -94,7 +94,8 @@ Some user actions to be taken into account:
 - On the Search Professionals page, you can submit your form and navigate through the pages at the bottom of the table (once it is populated with data).
 - Both form fields are validated before you can submit the form or navigate through professionals using the pagination CTA's.
 - If the user changes the professional category, the current state is reset and the professionals table is cleared.
-- If the user changes the postcode, it will be validated when blurring out of the field. If the postcode is incorrect, the pagination module at the bottom won't be available—the user must fetch the professionals again.
+- If the user changes the postcode, it will be validated when blurring out of the field (postcode is validated against UK postcode pattern)
+- If the postcode is incorrect, the pagination module at the bottom won't be available and the user must fetch the professionals again.
 - The user can navigate to higher page indexes instead of just using the "previous" and "next" buttons.
 
 ## Analysis
@@ -110,6 +111,7 @@ Throughout the development, I considered many improvements that I wanted to incl
 - Simplifying some of the types, as they are overengineered and add unnecessary complexity.
 - Adhering to web standards, particularly in generic components, such as accessibility rules and WHATWG standards.
 - Improving error handling for API calls, as network errors (e.g., 500) or API custom errors are not currently handled.
+- Improving validation errors by actually showing the error messages, at the moment the borders of the inputs glow a red color when invalid
 - Adding unit tests, which was a goal initially but was not realized due to time constraints.
 - Providing good documentation for generic hooks and components in a proper README.md document.
 
