@@ -1,4 +1,4 @@
-import loager from "@assets/loader.gif";
+import loader from "@assets/loader.gif";
 import { Image } from "@components/image";
 import React from "react";
 import css from "./loader.scss";
@@ -13,7 +13,7 @@ export const Loader: React.FC<Props> = ({ isLoading }) => {
   return (
     <div className={css.container}>
       <div className={css.loader}>
-        <Image src={loager} />
+        <Image src={loader} />
       </div>
     </div>
   );
