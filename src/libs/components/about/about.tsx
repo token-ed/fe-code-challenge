@@ -43,9 +43,6 @@ export const About: React.FC = () => (
         download from GitHub, if you're sitting behind a proxy it might be problematic - in this
         case please follow the recommendations on the error logged in the terminal.
       </li>
-      <li>
-        Any other error on starting the app, please let me know: <em>emiguel.dev@gmail.com</em>
-      </li>
     </ul>
 
     <h2>Motivation</h2>
@@ -281,7 +278,6 @@ export const About: React.FC = () => (
     <h2>Authors</h2>
     <p>Eduardo Miguel Fernandes</p>
     <ul>
-      <li>emiguel.dev@gmail.com</li>
       <li>
         <a href="https://github.com/token-ed">@token-ed</a>
       </li>
@@ -290,7 +286,7 @@ export const About: React.FC = () => (
     <h2>Version History</h2>
     <ul>
       <li>
-        1.0.1
+        2.0.0
         <ul>
           <li>FE code challenge</li>
         </ul>
