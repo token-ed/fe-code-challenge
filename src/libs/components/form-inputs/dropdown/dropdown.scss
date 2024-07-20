@@ -1,0 +1,29 @@
+@import "../../resources/variables.scss";
+
+.dropdown-container {
+	display: flex;
+	flex-direction: column;
+}
+
+.label {
+	margin-bottom: 5px;
+}
+
+.select {
+	width: 200px;
+	border: 2px solid $green;
+	border-radius: 4px;
+	margin-top: 0.25rem;
+	padding: 0.3rem;
+	transition: all 0.1s ease-out;
+	cursor: pointer;
+
+	&-not-valid {
+		border: 2px solid $red;
+		background-color: $lightest-gray;
+	}
+
+	&:focus-visible {
+		outline: none;
+	}
+}

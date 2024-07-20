@@ -1,0 +1,28 @@
+@import "../../resources/variables.scss";
+
+.text-box-container {
+	display: flex;
+	flex-direction: column;
+}
+
+.label {
+	margin-bottom: 4px;
+}
+
+.input {
+	width: 200px;
+	border: 2px solid #00cc95;
+	border-radius: 4px;
+	margin-top: 0.25rem;
+	padding: 0.4rem;
+	transition: all 0.1s ease-out;
+
+	&-not-valid {
+		border: 2px solid $red;
+		background-color: $lightest-gray;
+	}
+
+	&:focus-visible {
+		outline: none;
+	}
+}

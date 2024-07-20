@@ -1,0 +1,46 @@
+@import "../../libs/components/resources/variables.scss";
+
+.form-container {
+	display: flex;
+	margin-bottom: 40px;
+}
+
+.search-container {
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+
+	> * {
+		max-width: 700px;
+	}
+}
+
+.text-box,
+.dropdown {
+	margin-right: 40px;
+	align-self: flex-end;
+}
+
+.button {
+	align-self: flex-end;
+	color: $white;
+	text-transform: uppercase;
+	text-decoration: none;
+	background: $light-gray;
+	height: 30px;
+	border-radius: 3px;
+	border: none;
+
+	&:hover {
+		background: $green;
+		cursor: pointer;
+		color: $black;
+		background: $white;
+		box-shadow: 0 0 0 2px $light-gray;
+	}
+}
+
+.stars {
+	display: flex;
+	justify-content: center;
+}

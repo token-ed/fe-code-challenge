@@ -1,0 +1,110 @@
+@import "../resources/variables.scss";
+
+.table-container {
+	display: flex;
+	flex-direction: column;
+	transition: height 0.1s ease;
+	width: 100%;
+
+	table {
+		border-collapse: collapse;
+		width: 100%;
+		border-radius: 3px;
+		border-spacing: 2px;
+	}
+
+	thead {
+		background: $green;
+		color: $white;
+	}
+
+	th,
+	td {
+		text-align: center;
+		padding: 5px 0;
+	}
+
+	tbody tr:nth-child(even) {
+		background: $lighter-gray;
+	}
+
+	tbody tr:hover {
+		background: $aqua;
+		color: $white;
+	}
+}
+
+.pagination-container {
+	margin-top: 40px;
+	display: flex;
+	justify-content: center;
+	list-style: none;
+	cursor: pointer;
+	padding: 0;
+
+	> a {
+		padding: 10px;
+		border-radius: 5px;
+		border: 1px solid #6c7ac9;
+		color: $white;
+	}
+}
+
+.pagination-link-active {
+	color: $black;
+	background: $white;
+	background-color: $lighter-green;
+	transition: all 0.2s ease-in-out;
+	transform: scale(1.3);
+}
+
+.previous,
+.next {
+	font-weight: bold;
+	color: $white;
+	text-transform: uppercase;
+	text-decoration: none;
+	background: $light-gray;
+	width: 42px;
+	height: 46px;
+	border-radius: 2px;
+	border: none;
+
+	&:hover {
+		cursor: pointer;
+		color: $black;
+		background: $white;
+		box-shadow: 0 0 0 2px #767676;
+	}
+}
+
+.next-link,
+.previous-link {
+	width: inherit;
+	height: inherit;
+	position: relative;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+}
+
+.page-li {
+	height: 42px;
+	width: 42px;
+	border: 2px solid lightcoral;
+	margin: 0 1px 0 1px;
+	border-radius: 2px;
+	font-weight: bold;
+
+	&:hover {
+		background-color: $green;
+	}
+}
+
+.page-li-link {
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	width: inherit;
+	height: inherit;
+}
