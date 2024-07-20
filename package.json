@@ -3,18 +3,38 @@
   "version": "1.0.1",
   "description": "",
   "main": "index.js",
+  "homepage": "http://token-ed.github.io/fe-code-challenge",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/token-ed/fe-code-challenge.git"
+  },
   "scripts": {
     "app-dev": "webpack serve --config webpack.dev.config.ts",
     "start-json-server": "json-server --watch db.json --port 4001",
     "start": "npm i & npm run start-json-server & npm run app-dev",
     "build": "webpack --config webpack.dev.config.ts",
-    "test": "jest"
+    "test": "jest",
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -d build"
   },
   "resolutions": {
     "nan": "2.18.0"
   },
-  "keywords": [],
-  "author": "",
+  "keywords": [
+    "FE",
+    "FE Code Challenge",
+    "Take-home assignment",
+    "React",
+    "JavaScript",
+    "SASS",
+    "Webpack",
+    "Typescript",
+    "json-server",
+    "API",
+    "REST",
+    "RESTful"
+  ],
+  "author": "Eduardo Miguel Fernandes",
   "license": "ISC",
   "dependencies": {
     "classnames": "^2.3.1",
@@ -56,7 +76,7 @@
     "eslint-plugin-react-hooks": "^4.2.0",
     "eslint-webpack-plugin": "^2.5.4",
     "fork-ts-checker-webpack-plugin": "^6.2.10",
-    "gh-pages": "^3.2.0",
+    "gh-pages": "^3.2.3",
     "html-webpack-plugin": "^5.3.1",
     "jest": "^27.0.3",
     "json-server": "^1.0.0-beta.1",
