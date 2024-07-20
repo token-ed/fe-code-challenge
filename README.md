@@ -1,5 +1,9 @@
 # FE Code Challenge
 
+## Demo
+
+Test it **[here](https://token-ed.github.io/fe-code-challenge/)**
+
 ## Start application
 
 - Clone this repository
@@ -9,7 +13,6 @@
 - Start the application with: `npm run start`
 - Webpack will start a local server on port 4000, if you have any process running under that port that could be easily overcome by setting a new port in `./fe-code-challenge/webpack.dev.config.ts`, line 86.
 - Also, please bare in mind that I'm using _node-sass_ package and it requires a download from GitHub, if you're sitting behind a proxy it might be problematic - in this case please follow the recommendations on the error logged in the terminal.
-- Any other error on starting the app, please let me know: *emiguel.dev@gmail.com*
 
 ## Motivation
 
@@ -116,10 +119,9 @@ If anything goes wrong with the application or if you have any questions, please
 
 Eduardo Miguel Fernandes
 
-- emiguel.dev@gmail.com
 - [@token-ed](https://github.com/token-ed)
 
 ## Version History
 
-- 1.0.1
+- 2.0.0
   - FE code challenge
