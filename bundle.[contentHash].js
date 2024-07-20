@@ -259,7 +259,7 @@ var Image = function Image(_ref) {
   return /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement("img", {
     role: "img",
     className: className,
-    src: src,
+    src: "./".concat(src),
     height: height,
     width: width,
     loading: "lazy"
@@ -3037,7 +3037,7 @@ __webpack_require__.r(__webpack_exports__);
 // extracted by mini-css-extract-plugin
 /* harmony default export */ const __WEBPACK_DEFAULT_EXPORT__ = ({"container":"app_container_Orjb4y"});
     if(true) {
-      // 1721503676802
+      // 1721504652005
       var cssReload = __webpack_require__(/*! ./node_modules/mini-css-extract-plugin/dist/hmr/hotModuleReplacement.js */ "./node_modules/mini-css-extract-plugin/dist/hmr/hotModuleReplacement.js")(module.id, {"locals":true});
       module.hot.dispose(cssReload);
       
@@ -3060,7 +3060,7 @@ __webpack_require__.r(__webpack_exports__);
 // extracted by mini-css-extract-plugin
 /* harmony default export */ const __WEBPACK_DEFAULT_EXPORT__ = ({"readme":"about_readme_ORbM-o"});
     if(true) {
-      // 1721503676807
+      // 1721504652009
       var cssReload = __webpack_require__(/*! ./node_modules/mini-css-extract-plugin/dist/hmr/hotModuleReplacement.js */ "./node_modules/mini-css-extract-plugin/dist/hmr/hotModuleReplacement.js")(module.id, {"locals":true});
       module.hot.dispose(cssReload);
       
@@ -3083,7 +3083,7 @@ __webpack_require__.r(__webpack_exports__);
 // extracted by mini-css-extract-plugin
 /* harmony default export */ const __WEBPACK_DEFAULT_EXPORT__ = ({"dropdown-container":"dropdown_dropdown-container_kEzcR2","dropdownContainer":"dropdown_dropdown-container_kEzcR2","label":"dropdown_label_ozX28L","select":"dropdown_select_KgwDMq","select-not-valid":"dropdown_select-not-valid_p6wpDg","selectNotValid":"dropdown_select-not-valid_p6wpDg"});
     if(true) {
-      // 1721503676811
+      // 1721504652018
       var cssReload = __webpack_require__(/*! ./node_modules/mini-css-extract-plugin/dist/hmr/hotModuleReplacement.js */ "./node_modules/mini-css-extract-plugin/dist/hmr/hotModuleReplacement.js")(module.id, {"locals":true});
       module.hot.dispose(cssReload);
       
@@ -3106,7 +3106,7 @@ __webpack_require__.r(__webpack_exports__);
 // extracted by mini-css-extract-plugin
 /* harmony default export */ const __WEBPACK_DEFAULT_EXPORT__ = ({"text-box-container":"text-box_text-box-container_bRMQSd","textBoxContainer":"text-box_text-box-container_bRMQSd","label":"text-box_label_NjB3lJ","input":"text-box_input_l-qJhA","input-not-valid":"text-box_input-not-valid_ukwO66","inputNotValid":"text-box_input-not-valid_ukwO66"});
     if(true) {
-      // 1721503676813
+      // 1721504652015
       var cssReload = __webpack_require__(/*! ./node_modules/mini-css-extract-plugin/dist/hmr/hotModuleReplacement.js */ "./node_modules/mini-css-extract-plugin/dist/hmr/hotModuleReplacement.js")(module.id, {"locals":true});
       module.hot.dispose(cssReload);
       
@@ -3129,7 +3129,7 @@ __webpack_require__.r(__webpack_exports__);
 // extracted by mini-css-extract-plugin
 /* harmony default export */ const __WEBPACK_DEFAULT_EXPORT__ = ({"container":"loader_container_IXtUEA","loader":"loader_loader_i3DjbT"});
     if(true) {
-      // 1721503676818
+      // 1721504652024
       var cssReload = __webpack_require__(/*! ./node_modules/mini-css-extract-plugin/dist/hmr/hotModuleReplacement.js */ "./node_modules/mini-css-extract-plugin/dist/hmr/hotModuleReplacement.js")(module.id, {"locals":true});
       module.hot.dispose(cssReload);
       
@@ -3152,7 +3152,7 @@ __webpack_require__.r(__webpack_exports__);
 // extracted by mini-css-extract-plugin
 /* harmony default export */ const __WEBPACK_DEFAULT_EXPORT__ = ({"navigation":"menu_navigation_axMOEL","image":"menu_image_1npch3","ul":"menu_ul_HdLY6v"});
     if(true) {
-      // 1721503676816
+      // 1721504652021
       var cssReload = __webpack_require__(/*! ./node_modules/mini-css-extract-plugin/dist/hmr/hotModuleReplacement.js */ "./node_modules/mini-css-extract-plugin/dist/hmr/hotModuleReplacement.js")(module.id, {"locals":true});
       module.hot.dispose(cssReload);
       
@@ -3175,7 +3175,7 @@ __webpack_require__.r(__webpack_exports__);
 // extracted by mini-css-extract-plugin
 /* harmony default export */ const __WEBPACK_DEFAULT_EXPORT__ = ({"table-container":"table_table-container_IHZOj+","tableContainer":"table_table-container_IHZOj+","pagination-container":"table_pagination-container_jpVd5N","paginationContainer":"table_pagination-container_jpVd5N","pagination-link-active":"table_pagination-link-active_M4HZoF","paginationLinkActive":"table_pagination-link-active_M4HZoF","previous":"table_previous_4JeWwD","next":"table_next_203wbc","next-link":"table_next-link_ZR+j7K","nextLink":"table_next-link_ZR+j7K","previous-link":"table_previous-link_lwmwbT","previousLink":"table_previous-link_lwmwbT","page-li":"table_page-li_kE+Cu6","pageLi":"table_page-li_kE+Cu6","page-li-link":"table_page-li-link_pX+1ey","pageLiLink":"table_page-li-link_pX+1ey"});
     if(true) {
-      // 1721503676821
+      // 1721504652027
       var cssReload = __webpack_require__(/*! ./node_modules/mini-css-extract-plugin/dist/hmr/hotModuleReplacement.js */ "./node_modules/mini-css-extract-plugin/dist/hmr/hotModuleReplacement.js")(module.id, {"locals":true});
       module.hot.dispose(cssReload);
       
@@ -3198,7 +3198,7 @@ __webpack_require__.r(__webpack_exports__);
 // extracted by mini-css-extract-plugin
 /* harmony default export */ const __WEBPACK_DEFAULT_EXPORT__ = ({"form-container":"styles-shared_form-container_GfIsAN","formContainer":"styles-shared_form-container_GfIsAN","search-container":"styles-shared_search-container_LZZB+p","searchContainer":"styles-shared_search-container_LZZB+p","text-box":"styles-shared_text-box_kpFDMc","textBox":"styles-shared_text-box_kpFDMc","dropdown":"styles-shared_dropdown_sW3Kam","button":"styles-shared_button_95CN65","stars":"styles-shared_stars_oS8ogT"});
     if(true) {
-      // 1721503676824
+      // 1721504652031
       var cssReload = __webpack_require__(/*! ./node_modules/mini-css-extract-plugin/dist/hmr/hotModuleReplacement.js */ "./node_modules/mini-css-extract-plugin/dist/hmr/hotModuleReplacement.js")(module.id, {"locals":true});
       module.hot.dispose(cssReload);
       
@@ -37598,7 +37598,7 @@ function invariant(condition, message) {
 /******/ 	
 /******/ 	/* webpack/runtime/getFullHash */
 /******/ 	(() => {
-/******/ 		__webpack_require__.h = () => ("d003b5596d1b68380c4f")
+/******/ 		__webpack_require__.h = () => ("c0a31804d0a3c6d89bb1")
 /******/ 	})();
 /******/ 	
 /******/ 	/* webpack/runtime/global */
